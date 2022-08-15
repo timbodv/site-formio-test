@@ -1,0 +1,1 @@
+dotnet new blazorwasm -au SingleOrg --client-id "ab1b7fe3-dd91-486a-8ecc-8a3794209ea5" --tenant-id "a5102dde-412c-499f-88fd-ab109bde6fbf"
