@@ -16,6 +16,7 @@
     <PackageReference Include="PublishSPAforGitHubPages.Build" Version="2.0.1" />
   </ItemGroup>
 
+  <!-- bug https://stackoverflow.com/questions/67805062/blazor-wasm-net-6-preview-4-azure-ad-there-was-an-error-trying-to-log-you-in -->
   <ItemGroup>
     <TrimmerRootAssembly Include="Microsoft.Authentication.WebAssembly.Msal" />
   </ItemGroup>
