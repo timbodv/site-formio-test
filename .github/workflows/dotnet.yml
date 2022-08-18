@@ -23,4 +23,7 @@ jobs:
       run: dotnet build src --no-restore -c:Release -p:GHPages=true
     - name: Build
       run: dotnet publish src --no-restore -c:Release -p:GHPages=true -o publish
-
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        folder: publish/wwwroot
