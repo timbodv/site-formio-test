@@ -1,4 +1,4 @@
-name: Build and publish to branch gh-pages
+name: Source build and publish
 
 on:
   workflow_dispatch:
@@ -18,7 +18,7 @@ jobs:
       run: dotnet restore src
     - name: Build
       run: dotnet build src --no-restore -c:Release -p:GHPages=true
-    - name: Build
+    - name: Publish
       run: dotnet publish src --no-restore -c:Release -p:GHPages=true -o publish
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@v4
