@@ -1,10 +1,10 @@
-name: .NET
+name: Build and publish to GitHub Pages
 
 on:
-  push:
-    branches: [ "main" ]
+  #push:
+  #  branches: [ "main" ]
   pull_request:
-    branches: [ "main" ]
+  #  branches: [ "main" ]
 
 jobs:
   build:
@@ -18,9 +18,9 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore src
     - name: Build
-      run: dotnet build --no-restore -c:Release -p:GHPages=true
+      run: dotnet build src --no-restore -c:Release -p:GHPages=true
     - name: Build
-      run: dotnet publish --no-restore -c:Release -p:GHPages=true -o publish
+      run: dotnet publish src --no-restore -c:Release -p:GHPages=true -o publish
 
