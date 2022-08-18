@@ -9,7 +9,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "formio-wasm.dll": "sha256-wTH97P0PcBpfJLn\/M++dxKF0SbNdP8hOzaveRBXkMoE=",
+      "formio-wasm.dll": "sha256-tJwmWE1TLhztE9FTZ6eAH2JkgXl7JR9qxGVMl2AS\/9A=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-e8hVB7P5xQDoo7nnnUezFFu\/814vNzFQPO3\/i9siJyE=",
       "Microsoft.AspNetCore.Components.Authorization.dll": "sha256-1PlkBrEe8rmKOZzRgGajcqJHn4yYEayRbHJonUJfMog=",
       "Microsoft.AspNetCore.Components.dll": "sha256-j\/E2\/PsZDYoGQGPKsq03+n5whBbl2G4u2tzBZStb8KU=",
